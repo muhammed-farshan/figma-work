@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    display:flex;
+    background-color: rgb(103, 123, 130);
+}
+.image{
+    /* border: solid; */
+    width: 50%;
+    height:730px;
+}
+img{
+    margin-top:8rem;
+    margin-left:5rem;
+    width: 550px;
+}
+.content{
+    /* border: solid; */
+    width: 50%;
+}
+#head{
+    margin-left:4rem;
+    margin-top: 8rem;
+    font-size: 45px;
+    font-weight: 700;
+}
+.input{
+    margin-left:11rem;
+   display: block;
+   margin-top: 8rem;
+   font-weight: 500;
+   font-size: 20px;
+   padding: 12px;
+   border-radius: 10px;
+}
+#scndinpt{
+    margin-top: 40px;
+}
+#btn{
+    margin-top: 2.1rem;
+    margin-left:11rem;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 9px;
+border-radius: 10px;
+background-color: rgb(76, 75, 75);
+}
+/* media quarry */
+@media(max-width:920px){
+   img{
+    margin-left:1rem;
+    width: 500px;
+   }
+   #head{
+    margin-left:3rem;
+    font-size: 35px;
+   }
+   .input{
+    font-size: 15px;
+    font-weight: 300;
+    margin-left:8rem;
+
+   }
+}
+/* M scrn */
+@media(max-width:760px){
+    img{
+        margin-left:1rem;
+        width: 250px;
+       }
+       #head{
+        margin-left:2rem;
+        font-size: 25px;
+       }
+       .input{
+        font-size: 10px;
+        font-weight: 300;
+        margin-left:3rem;
+       }
+       #btn{
+        margin-left:3rem;
+        font-weight: 600;
+        font-size: 10px;
+    }
+}
+/* S scrn */
+@media(max-width:480px){
+    img{
+        margin-left:1rem;
+        width: 150px;
+       }
+       .input{
+        font-size: 5px;
+        font-weight: 100;
+        margin-left:1rem;
+       }
+       #btn{
+        margin-left:2rem;
+        font-weight: 100;
+        font-size: 5px;
+    }
+}
+@media(max-width:270px){
+    #head{
+        margin-left:0px;
+        font-size: 15px;
+       }
+    img{
+        margin-left:0px;
+        width: 70px;
+       } 
+       .input{
+        font-size: 2px;
+        font-weight: 100;
+        margin-left:0px;
+
+       }
+}
